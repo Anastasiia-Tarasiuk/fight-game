@@ -17,7 +17,7 @@ export function createFighterPreview(fighter, position) {
     const fighterDetails = createElement({tagName: 'div', className: 'fighter-preview___info'});
 
     fighterDetails.innerHTML = `
-    <p> Fighter: ${fighter.name}</p>
+    <p class ="fighter-preview___info-name">${fighter.name}</p>
     <p> Attak: ${fighter.attack}</p>
     <p> Defense: ${fighter.defense}</p>
     <p> Health: ${fighter.health}</p>  
