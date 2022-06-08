@@ -11,9 +11,6 @@ export function renderArena(selectedFighters) {
   root.append(arena);
 
   fight(...selectedFighters).then((winner) => showWinnerModal(winner));
-  // todo:
-  // - start the fight
-  // - when fight is finished show winner
 }
 
 function createArena(selectedFighters) {
