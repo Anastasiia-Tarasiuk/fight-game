@@ -5,9 +5,32 @@
 }
 
 .fighter-preview___right {
-  align-items: flex-end;
+  align-items: center;
 }
 
 .fighter-preview___left {
-  align-items: flex-start;
+  align-items: center;
+}
+
+.fighter-preview___info {
+  color: yellow;
+  font-size: 20px;
+  text-align: center;
+}
+
+.fighter-preview___info p:not(:first-child) {
+  margin: 0;
+  
+}
+
+.fighter-preview___info-name {
+  font-size: 25px;
+  font-weight: bold;
+  color:red;
+  margin: 15px 0;
+}
+
+.fighter-preview___img {
+  width: auto;
+  height: 320px;
 }
